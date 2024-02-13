@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    /* background-color: rgb(255, 131, 131); */
+    background: linear-gradient(yellow, green);
+}
+
+.btns{
+    width: 100px;
+    height: 25px;
+    border-radius: 18px;
+}
+
+.btns:hover{
+    cursor: pointer;
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+html,
+body {
+    height: 100%;
+    /* overflow-y: hidden; */
+    overflow-x: hidden;
+}
+
+header {
+    height: 100px;
+    padding: 20px 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.logo {
+    width: 50%;
+
+}
+
+img {
+    width: 10%;
+    border-radius: 100px;
+}
+
+.menu {
+    padding-top: 20px;
+    text-align: left;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+section.sobre {
+    height: 500px;
+    position: relative;
+}
+
+.extras {
+    position: absolute;
+    bottom: -500px;
+    right: -550px;
+    width: 1000px;
+    height: 1050px;
+}
+
+.extras img {
+    bottom: -500px;
+    right: -550px;
+    width: 1000px;
+    height: 1050px;
+    border-radius: 20%;
+} 
+
+.time {
+    width: 4000px;
+    margin-top: 50px;
+    margin-left: -50px;
+}
+
+.cores {
+    background: linear-gradient(black, white);
+}
+
+.cor-palmeiras {
+    background: linear-gradient(rgb(0, 101, 0), white);
+}
+
+.cor-corinthians {
+    background: linear-gradient(white, black);
+}
+
+.cor-flamengo {
+    background: linear-gradient(red, black);
+}
+
+.cor-gremio{
+    background: linear-gradient(white, purple);
+}
+
+.texto-sobre {
+    margin-top: 180px;
+}
+
+.texto-sobre h1 {
+    font-size: 50px
+}
+
+.texto-sobre p {
+    margin: 20px 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 800px;
+}
+
+.mais {
+    margin-top: 250px;
+    
+}
+
+.mais h1 {
+    font-size: 50px;
+}
+
+.mais p {
+    margin: 20px 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 800px;
+}
